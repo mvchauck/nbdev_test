@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "nbdev_test"
+  site-url: "https://chauck.github.io/nbdev_test"
+  description: ""
+  repo-branch: main
+  repo-url: "https://github.com/chauck/nbdev_test"
