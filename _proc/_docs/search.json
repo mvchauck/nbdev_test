@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "nbdev_test",
+    "section": "",
+    "text": "This file will become your README and also the index of your documentation."
+  },
+  {
+    "objectID": "index.html#install",
+    "href": "index.html#install",
+    "title": "nbdev_test",
+    "section": "Install",
+    "text": "Install\npip install nbdev_test"
+  },
+  {
+    "objectID": "index.html#how-to-use",
+    "href": "index.html#how-to-use",
+    "title": "nbdev_test",
+    "section": "How to use",
+    "text": "How to use\nnbdev directives overview: https://nbdev.fast.ai/explanations/directives.html\nWhen your documentation is built, all your manually added show_doc cells are run automatically. nbdev also executes all cells containing an import statement, and all exported cells – that way we can be sure that the symbol used in your show_doc cell is available."
+  },
+  {
+    "objectID": "core.html",
+    "href": "core.html",
+    "title": "core",
+    "section": "",
+    "text": "source\n\nfoo\n\n foo ()\n\n\n\n\ncell_with_export_directive\n\n cell_with_export_directive ()\n\n\ndef cell_with_exports_directive():\n    print(\"hi\")\n    print(\"ok\")\n    a = 1+2\n    print(a)\n\n\n\n\ncell_with_exports_directive\n\n cell_with_exports_directive ()\n\n\ndef cell_without_directive():\n    print(\"hi\")\n    print(\"ok\")\n    a = 1+3\n    print(a)"
+  }
+]

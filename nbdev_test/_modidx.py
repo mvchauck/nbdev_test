@@ -5,4 +5,8 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://chauck.github.io',
                 'git_url': 'https://github.com/chauck/nbdev_test',
                 'lib_path': 'nbdev_test'},
-  'syms': {'nbdev_test.core': {'nbdev_test.core.foo': ('core.html#foo', 'nbdev_test/core.py')}}}
+  'syms': { 'nbdev_test.core': { 'nbdev_test.core.cell_with_export_directive': ( 'core.html#cell_with_export_directive',
+                                                                                 'nbdev_test/core.py'),
+                                 'nbdev_test.core.cell_with_exports_directive': ( 'core.html#cell_with_exports_directive',
+                                                                                  'nbdev_test/core.py'),
+                                 'nbdev_test.core.foo': ('core.html#foo', 'nbdev_test/core.py')}}}
